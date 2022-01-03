@@ -1,11 +1,19 @@
+a {
+  color: #11999E;
+  font-family: 'Comic Neue', cursive;
+  margin: 20px 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
 body {
+  color: #40514E;
   font-family: 'Comic Neue', cursive;
   margin: 0;
   text-align: center;
-}
-
-a {
-  color: #11999E;
 }
 
 hr {
@@ -14,6 +22,7 @@ hr {
   border-color: #CCD1E4;
   border-width: 3px;
   width: 10%;
+  margin: 50px auto;
 }
 
 h1 {
@@ -36,35 +45,10 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
-.introduction {
-  margin: auto;
-  line-height: 2;
-  color: #40514E;
-  width: 50%;
-}
-
-.skill-row {
-  width: 50%;
-  margin: 50px auto 50px auto;
-  text-align: left;
-  line-height: 2;
-}
-
-.hobbies-row {
-  width: 50%;
-  margin: 50px auto 50px auto;
-  text-align: left;
-  line-height: 2;
-}
-
-.web {
-  text-decoration: underline;
-}
-
-.top-container {
-  background-color: #EAF6F6;
-  position: relative;
-  padding-top: 100px;
+.bottom-cloud {
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
 }
 
 .bottom-container {
@@ -72,28 +56,6 @@ h3 {
   padding: 25px 0;
   position: absolute;
   width: 100%;
-}
-
-.main-image {
-  position: relative;
-  bottom: 0;
-}
-
-.profile-img {
-  position: relative;
-  margin: 50px 0 0 0;
-}
-
-.top-cloud {
-  position: absolute;
-  top: 50px;
-  right: 100px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  bottom: 10px;
-  left: 100px;
 }
 
 .code-img {
@@ -108,6 +70,49 @@ h3 {
   margin: 0 0 0 30px;
 }
 
+.github-link {
+  font-size: 0.8rem;
+}
+
+.hire-me {
+  font-size: 0.8rem;
+}
+
+.hobbies-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.introduction {
+  margin: auto;
+  line-height: 2;
+  color: #40514E;
+  width: 50%;
+}
+
+.linkedin-link {
+  font-size: 0.8rem;
+}
+
+.main-image {
+  position: relative;
+  bottom: 0;
+}
+
+.profile-img {
+  position: relative;
+  margin: 50px 0 0 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
 .soccer-img {
   width: 25%;
   float: left;
@@ -116,21 +121,24 @@ h3 {
 
 .signature {
   color: #EAF6F6;
-  font-size: 0.6rem;
+  font-size: 0.75rem;
+  padding: 10px 0;
 }
 
-.linkedin-link {
-  padding: 20px;
-  font-size: 0.8rem;
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
 }
 
-.github-link {
-  padding: 20px;
-  font-size: 0.8rem;
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 100px;
 }
 
-.hire-me {
-  font-size: 0.8rem;
+.web {
+  text-decoration: underline;
 }
 
 .btn {
