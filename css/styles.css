@@ -143,9 +143,9 @@ h3 {
 
 .top-links {
   position: relative;
-  float: right;
+  float: left;
   margin: 25px;
-  width: 500px;
+  width: 50%;
 }
 
 .top-about-me {
